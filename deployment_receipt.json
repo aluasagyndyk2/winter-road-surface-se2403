@@ -1,0 +1,35 @@
+{
+  "source_checkpoint": "epoch_09.keras",
+  "source_checkpoint_sha256": "cb6acf65e1c0f96e6bf7276a19748b380d15a0f948a9210fc7d25f5f5dcd5eca",
+  "source_checkpoint_bytes": 50843049,
+  "deployment_checkpoint": "model.keras",
+  "deployment_checkpoint_bytes": 17710219,
+  "deployment_checkpoint_sha256": "500d9a7c2f554e7b8aec6ce5ac7aa1fda6f8ab24210f1e62664bdf8c909f2afc",
+  "weights_sha256": "4259115fe1d8ede1a4e1247b5dce3d9632b099e42a226ccdbf9fd7ff717a98b9",
+  "weights_identical": true,
+  "optimizer_state_included": false,
+  "five_validation_example_checks": {
+    "dry": {
+      "maximum_difference": 0.0,
+      "predicted": "dry"
+    },
+    "wet": {
+      "maximum_difference": 0.0,
+      "predicted": "wet"
+    },
+    "snow": {
+      "maximum_difference": 0.0,
+      "predicted": "snow"
+    },
+    "ice": {
+      "maximum_difference": 0.0,
+      "predicted": "ice"
+    },
+    "slush": {
+      "maximum_difference": 0.0,
+      "predicted": "slush"
+    }
+  },
+  "tensorflow": "2.21.0",
+  "streamlit": "1.67.0"
+}
